@@ -110,21 +110,32 @@ gap: 40px;
 }
 
 /* Hero Section*/
-
 .hero { 
 background-color:#2E2F42; 
 text-align: center; 
 } 
 
+.hero-content {
+    max-width: 1440px;
+    text-align: center;
+    margin:auto
+}
+
 .hero-title { 
-font-size: 56px; 
-font-weight: 700; 
-line-height: 1.07; 
-letter-spacing: 0.02em; 
-color: #FFF;     
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;   
+max-width: 496px;
+margin: auto;
+margin-bottom: 48px;
 } 
 
 .hero-button { 
+border: 0;
+display: block;
+margin: auto;
 font-family: 'Roboto', sans-serif; 
 font-style: normal; 
 font-weight: 500;   
@@ -134,8 +145,14 @@ color: #fff;
 } 
 
 button { 
-background-color: #4d5ae5; 
-cursor: pointer;        
+cursor: pointer;
+padding: 16px 32px;
+gap: 10px;
+border-radius: 4px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+border-width: 0px;
+min-width: 169px;      
 } 
 
 button:hover, 
@@ -144,7 +161,6 @@ background-color: #404bbf;
 } 
 
 /* Styles for sections */ 
-
 .hidden-header {     
 } 
 
