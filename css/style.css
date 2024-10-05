@@ -161,13 +161,22 @@ background-color: #404bbf;
 } 
 
 /* Styles for sections */ 
-.hidden-header {     
+.hidden-header {   
+position: absolute; 
+width: 1px; 
+height: 1px; 
+margin: -1px; 
+border: 0; 
+padding: 0;     
+white-space: nowrap; 
+clip-path: inset(100%); 
+clip: rect(0 0 0 0); 
+overflow: hidden;     
 } 
 
-.our-team {    
-background-color: #f4f4fd;   
-text-align: center; 
-} 
+.features{
+padding: 120px;
+}
 
 .section-header {     
 color: #2e2f42; 
@@ -177,6 +186,7 @@ font-weight: 700;
 line-height: 1.11; 
 text-transform: capitalize; 
 letter-spacing: 0.02em; 
+margin-bottom: 72px;
 } 
 
 .section-header-item { 
@@ -185,12 +195,28 @@ font-size: 20px;
 font-weight: 500; 
 line-height: 1.2; 
 letter-spacing:0.02em; 
+margin-bottom: 8px;
 } 
 
+.features-list{
+display: flex;
+gap: 24px;
+}
+
+.features-item{
+flex-direction: column;
+align-items: start;
+}
+
 .section-text { 
-line-height: 1.5; 
-letter-spacing: 0.02em; 
-} 
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+    } 
+
+.our-team {    
+    background-color: #f4f4fd;   
+    text-align: center; 
+    } 
 
 .team-card { 
 background-color: #fff; 
