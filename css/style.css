@@ -14,7 +14,7 @@ a {
 ul,ol {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0;
     
 }
 
@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,p {
 .container {
     max-width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 /* Header*/
@@ -112,7 +112,7 @@ gap: 40px;
 /* Hero Section*/
 .hero { 
 background-color:#2E2F42; 
-text-align: center; 
+padding: 188px 0; 
 } 
 
 .hero-content {
@@ -123,6 +123,7 @@ text-align: center;
 
 .hero-title { 
 font-size: 56px;
+font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
@@ -142,9 +143,6 @@ font-weight: 500;
 line-height: 1.5;   
 letter-spacing: 0.04em; 
 color: #fff; 
-} 
-
-button { 
 cursor: pointer;
 padding: 16px 32px;
 gap: 10px;
@@ -152,7 +150,7 @@ border-radius: 4px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 border-width: 0px;
-min-width: 169px;      
+min-width: 169px;
 } 
 
 button:hover, 
@@ -175,7 +173,7 @@ overflow: hidden;
 } 
 
 .features{
-padding: 120px;
+padding: 120px 0;
 }
 
 .section-header {     
@@ -198,6 +196,11 @@ letter-spacing:0.02em;
 margin-bottom: 8px;
 } 
 
+.section-text { 
+line-height: 1.5; 
+letter-spacing: 0.02em; 
+}
+
 .features-list{
 display: flex;
 gap: 24px;
@@ -205,24 +208,19 @@ gap: 24px;
 
 .features-item{
 flex-direction: column;
-align-items: stretch;
+align-items: flex-start;
 gap:8px;
 width: 264px;
 }
 
 .features-item: first-child {
 width: calc(((100%-72px)/4)) 
-
-}
-.section-text { 
-line-height: 1.5; 
-letter-spacing: 0.02em; 
 } 
 
 .our-team {    
 background-color: #f4f4fd;   
 text-align: center; 
-padding: 120px;
+padding: 120px 0;
 } 
 
 
@@ -230,6 +228,7 @@ padding: 120px;
 text-align: center; 
 width: 264px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 background-color:  #fff
 } 
 
@@ -250,7 +249,8 @@ padding: 32px 0;
 }
 
 .portfolio {
-padding: 120px;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -285,7 +285,8 @@ color: #f4f4fd;
 .footer-text {
 color:#f4f4fd; 
 line-height: 1.5; 
-letter-spacing: 0.02em; 
+letter-spacing: 0.02em;
+width: 264px; 
 }
 
 .footer-link{
