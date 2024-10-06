@@ -29,8 +29,10 @@ h1,h2,h3,h4,h5,h6,p {
 /* Common*/
 .container {
     max-width: 1158px;
-    padding: 0 15px;
-    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Header*/
@@ -40,7 +42,7 @@ h1,h2,h3,h4,h5,h6,p {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
 }
@@ -67,7 +69,7 @@ h1,h2,h3,h4,h5,h6,p {
 .logo-header {
     color: #2e2f42;
 }
-.nav-list{
+.nav-list {
     display: flex;
     gap: 40px;
 }
@@ -172,7 +174,7 @@ clip: rect(0 0 0 0);
 overflow: hidden;     
 } 
 
-.features{
+.features {
 padding: 120px 0;
 }
 
@@ -201,12 +203,12 @@ line-height: 1.5;
 letter-spacing: 0.02em; 
 }
 
-.features-list{
+.features-list {
 display: flex;
 gap: 24px;
 }
 
-.features-item{
+.features-item {
 flex-direction: column;
 align-items: flex-start;
 gap:8px;
@@ -289,7 +291,7 @@ letter-spacing: 0.02em;
 width: 264px; 
 }
 
-.footer-link{
+.footer-link {
 display: inline-block;
 margin-bottom: 16px;    
 }
