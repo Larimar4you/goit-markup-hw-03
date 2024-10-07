@@ -257,6 +257,10 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
+.portfolio-border {
+border-top: none;
+}
+
 .portfolio-list {
 display: flex;
 gap: 48px 24px;
@@ -269,7 +273,6 @@ width: calc((100% - 48px)/ 3);
 
 .item-description {
 padding: 32px 16px;
-border-top: none;
 }
 
 .portfolio-border {
